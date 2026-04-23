@@ -257,6 +257,46 @@ export default function Home() {
         </div>
       </main>
 
+      {/* Sección de Metodología */}
+      <section className="bg-secondary/5 py-24 md:py-32 mt-24">
+        <div className="max-w-7xl mx-auto px-4 md:px-6">
+            <div className="text-center mb-16 md:mb-24">
+                <span className="text-[9px] md:text-[10px] font-black text-primary uppercase tracking-[0.4em] mb-4 block">Excelencia Académica</span>
+                <h2 className="font-roboto font-black text-3xl md:text-5xl text-secondary uppercase tracking-tight">Nuestra Metodología</h2>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-8 md:gap-12">
+                {[
+                    {
+                        icon: <ShieldCheck size={32} />,
+                        title: "EVIDENCIA CIENTÍFICA",
+                        desc: "Contenido actualizado basado estrictamente en el rigor científico y las guías internacionales más recientes."
+                    },
+                    {
+                        icon: <Layers size={32} />,
+                        title: "CASOS CLÍNICOS",
+                        desc: "Metodología práctica con resolución de problemas reales para una aplicación inmediata en el entorno clínico."
+                    },
+                    {
+                        icon: <User size={32} />,
+                        title: "MENTORÍA EXPERTA",
+                        desc: "Acceso directo a especialistas para resolver dudas y profundizar en los conceptos más complejos."
+                    }
+                ].map((item, i) => (
+                    <div key={i} className="text-center p-8 rounded-[32px] bg-white border border-border/50 shadow-sm hover:shadow-xl transition-all">
+                        <div className="w-16 h-16 rounded-2xl bg-primary/10 flex items-center justify-center text-primary mx-auto mb-8">
+                            {item.icon}
+                        </div>
+                        <h3 className="font-roboto font-black text-lg text-secondary mb-4 uppercase tracking-wider">{item.title}</h3>
+                        <p className="text-sm md:text-base text-secondary/50 leading-relaxed font-medium">
+                            {item.desc}
+                        </p>
+                    </div>
+                ))}
+            </div>
+        </div>
+      </section>
+
       {/* Footer Minimalista con Enfoque en Conversión */}
       <footer className="bg-white border-t border-border py-16 md:py-32 mt-16 md:mt-24">
         <div className="max-w-7xl mx-auto px-4 md:px-6 text-center">
