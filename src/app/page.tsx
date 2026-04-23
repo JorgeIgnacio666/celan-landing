@@ -146,6 +146,7 @@ export default function Home() {
 
             {/* Temario Curricular */}
             <div className="mt-12 md:mt-24">
+                <span className="text-[9px] md:text-[10px] font-black text-primary uppercase tracking-[0.4em] mb-3 block">Plataforma didáctica</span>
                 <div className="flex items-center gap-4 mb-8 md:mb-12">
                     <BookOpen className="text-primary md:w-6 md:h-6" size={20} />
                     <h2 className="font-roboto font-black text-xl md:text-3xl text-secondary uppercase tracking-tighter">Contenido del curso</h2>
