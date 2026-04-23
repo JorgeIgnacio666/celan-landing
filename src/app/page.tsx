@@ -258,9 +258,9 @@ export default function Home() {
       </main>
 
       {/* Sección de Metodología */}
-      <section className="bg-secondary/5 py-24 md:py-32 mt-24">
+      <section className="bg-secondary/5 py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 md:px-6">
-            <div className="text-center mb-16 md:mb-24">
+            <div className="text-center mb-12 md:mb-16">
                 <span className="text-[9px] md:text-[10px] font-black text-primary uppercase tracking-[0.4em] mb-4 block">Excelencia Académica</span>
                 <h2 className="font-roboto font-black text-3xl md:text-5xl text-secondary uppercase tracking-tight">Nuestra Metodología</h2>
             </div>
@@ -298,7 +298,7 @@ export default function Home() {
       </section>
 
       {/* Footer Minimalista con Enfoque en Conversión */}
-      <footer className="bg-white border-t border-border py-16 md:py-32 mt-16 md:mt-24">
+      <footer className="bg-white border-t border-border py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 md:px-6 text-center">
             <h5 className="font-roboto font-black text-xl md:text-3xl text-secondary mb-4 md:mb-6 uppercase tracking-tight">
                 ¿Tienes dudas o necesitas apoyo con tu inscripción?
