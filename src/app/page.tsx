@@ -141,15 +141,14 @@ export default function Home() {
                     <span className="text-[10px] md:text-xs font-black text-secondary/40 uppercase tracking-widest hidden sm:block">Matrícula Abierta 2026</span>
                 </div>
 
-                <p className="text-base md:text-xl text-secondary/60 leading-relaxed max-w-2xl font-medium">
+                <p className="text-base md:text-xl text-secondary/60 leading-relaxed max-w-2xl font-medium mb-6 md:mb-8">
                     Obtén las competencias necesarias para el manejo terapéutico del paciente bajo soporte nutricional enteral y parenteral, basado en la evidencia científica del Centro Latinoamericano de Nutrición.
                 </p>
-            </div>
 
-            {/* Temario Curricular */}
-            <div className="mt-12 md:mt-24">
                 {/* Etiquetas de Estado del Curso (Estilo Platzi/DataCamp) */}
-                <div className="flex flex-wrap gap-2 md:gap-3 mb-8 md:mb-12">
+                <div className="flex flex-wrap gap-2 md:gap-3">
+
+
                 {[
                     { icon: <Globe size={14} />, text: "PLATAFORMA DIDÁCTICA" },
                     { icon: <Users size={14} />, text: "+15,000 ALUMNOS" },
@@ -163,7 +162,10 @@ export default function Home() {
                     </div>
                 ))}
             </div>
+            </div>
 
+            {/* Temario Curricular */}
+            <div className="mt-12 md:mt-24">
             <div className="flex items-center gap-4 mb-8 md:mb-12">
                 <BookOpen className="text-primary md:w-6 md:h-6" size={20} />
                 <h2 className="font-roboto font-black text-xl md:text-3xl text-secondary uppercase tracking-tighter">Contenido del curso</h2>
