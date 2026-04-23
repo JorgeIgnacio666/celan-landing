@@ -144,6 +144,7 @@ export default function Home() {
                 <p className="text-base md:text-xl text-secondary/60 leading-relaxed max-w-2xl font-medium mb-6 md:mb-8">
                     Obtén las competencias necesarias para el manejo terapéutico del paciente bajo soporte nutricional enteral y parenteral, basado en la evidencia científica del Centro Latinoamericano de Nutrición.
                 </p>
+            </div>
 
                 {/* Etiquetas de Estado del Curso (Estilo Platzi/DataCamp) */}
                 <div className="flex flex-wrap gap-2 md:gap-3">
@@ -161,7 +162,6 @@ export default function Home() {
                         {tag.text}
                     </div>
                 ))}
-            </div>
             </div>
 
             {/* Temario Curricular */}
@@ -202,7 +202,7 @@ export default function Home() {
                     ))}
                 </div>
             </div>
-            </div>
+          </div>
 
           {/* Sidebar / CTA */}
           <aside className="w-full lg:w-[400px] order-2">
