@@ -160,7 +160,7 @@ export default function Home() {
                         
                         <div className="bg-white border md:border-2 border-border/50 rounded-2xl md:rounded-[32px] p-6 md:p-10 hover:border-primary/30 transition-all hover:shadow-xl hover:shadow-primary/5 cursor-pointer">
                             <div className="flex flex-col sm:flex-row items-start gap-4 md:gap-8">
-                                <div className="w-12 h-12 md:w-16 md:h-16 rounded-2xl bg-secondary/5 flex items-center justify-center text-secondary/20 group-hover:text-primary/40 transition-colors shrink-0">
+                                <div className="hidden md:flex w-12 h-12 md:w-16 md:h-16 rounded-2xl bg-secondary/5 items-center justify-center text-secondary/20 group-hover:text-primary/40 transition-colors shrink-0">
                                     <Video size={24} className="md:w-8 md:h-8" />
                                 </div>
                                 <div className="flex-1">
