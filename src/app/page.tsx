@@ -130,12 +130,12 @@ export default function Home() {
                 </h1>
 
                 <div className="flex flex-wrap items-center gap-4 md:gap-6 mb-8 md:mb-10">
-                    <div className="flex text-primary">
+                    <div className="flex text-accent-yellow">
                         {[...Array(5)].map((_, i) => (
                             <Star key={i} size={14} fill="currentColor" className="md:w-4 md:h-4" />
                         ))}
                     </div>
-                    <span className="text-[10px] md:text-xs font-black text-secondary uppercase tracking-widest bg-secondary/5 px-3 py-1 rounded-full">4.9 / 5.0</span>
+                    <span className="text-[10px] md:text-xs font-black text-secondary uppercase tracking-widest bg-secondary/10 px-3 py-1 rounded-full">4.9 / 5.0</span>
                     <span className="text-[10px] md:text-xs font-black text-secondary/40 uppercase tracking-widest hidden sm:block">Matrícula Abierta 2026</span>
                 </div>
 
