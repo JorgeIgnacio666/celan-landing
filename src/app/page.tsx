@@ -202,6 +202,7 @@ export default function Home() {
                     ))}
                 </div>
             </div>
+            </div>
             
             {/* Separador Móvil */}
             <hr className="block lg:hidden my-10 border-border/80" />
