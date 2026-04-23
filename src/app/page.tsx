@@ -110,7 +110,7 @@ export default function Home() {
               <span className="font-roboto font-black text-lg md:text-xl tracking-tight uppercase">CELAN</span>
             </div>
             <button className="bg-primary text-white px-4 md:px-5 py-2 rounded-lg text-[10px] md:text-[11px] uppercase tracking-[0.2em] font-black hover:opacity-90 transition-all">
-              Ingresar
+              Comprar
             </button>
           </div>
         </nav>
