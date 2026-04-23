@@ -144,8 +144,10 @@ export default function Home() {
                 </p>
             </div>
 
-            {/* Etiquetas de Estado del Curso (Estilo Platzi/DataCamp) */}
-            <div className="flex flex-wrap gap-2 md:gap-3 mb-8 md:mb-12 mt-12 md:mt-24">
+            {/* Temario Curricular */}
+            <div className="mt-12 md:mt-24">
+                {/* Etiquetas de Estado del Curso (Estilo Platzi/DataCamp) */}
+                <div className="flex flex-wrap gap-2 md:gap-3 mb-8 md:mb-12">
                 {[
                     { icon: <Globe size={14} />, text: "PLATAFORMA DIDÁCTICA" },
                     { icon: <Users size={14} />, text: "+15,000 ALUMNOS" },
@@ -196,7 +198,7 @@ export default function Home() {
                     ))}
                 </div>
             </div>
-          </div>
+            </div>
 
           {/* Sidebar / CTA */}
           <aside className="w-full lg:w-[400px] order-2">
