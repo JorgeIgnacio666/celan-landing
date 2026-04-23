@@ -203,9 +203,6 @@ export default function Home() {
                 </div>
             </div>
             </div>
-            
-            {/* Separador Móvil Sutil */}
-            <div className="block lg:hidden w-full border-t border-secondary/10 my-16" />
 
           {/* Sidebar / CTA */}
           <aside className="w-full lg:w-[400px] order-2">
