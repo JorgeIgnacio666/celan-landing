@@ -144,13 +144,26 @@ export default function Home() {
                 </p>
             </div>
 
-            {/* Temario Curricular */}
-            <div className="mt-12 md:mt-24">
-                <span className="text-[9px] md:text-[10px] font-black text-primary uppercase tracking-[0.4em] mb-3 block">Plataforma didáctica</span>
-                <div className="flex items-center gap-4 mb-8 md:mb-12">
-                    <BookOpen className="text-primary md:w-6 md:h-6" size={20} />
-                    <h2 className="font-roboto font-black text-xl md:text-3xl text-secondary uppercase tracking-tighter">Contenido del curso</h2>
-                </div>
+            {/* Etiquetas de Estado del Curso (Estilo Platzi/DataCamp) */}
+            <div className="flex flex-wrap gap-2 md:gap-3 mb-8 md:mb-12 mt-12 md:mt-24">
+                {[
+                    { icon: <Globe size={14} />, text: "PLATAFORMA DIDÁCTICA" },
+                    { icon: <Users size={14} />, text: "+15,000 ALUMNOS" },
+                    { icon: <Clock size={14} />, text: "25 HORAS" },
+                    { icon: <Layers size={14} />, text: "5 MÓDULOS" },
+                    { icon: <Trophy size={14} />, text: "CERTIFICADO CELAN" }
+                ].map((tag, i) => (
+                    <div key={i} className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-secondary/5 border border-secondary/10 text-[9px] md:text-[10px] font-black text-secondary/70 uppercase tracking-wider">
+                        <span className="text-primary">{tag.icon}</span>
+                        {tag.text}
+                    </div>
+                ))}
+            </div>
+
+            <div className="flex items-center gap-4 mb-8 md:mb-12">
+                <BookOpen className="text-primary md:w-6 md:h-6" size={20} />
+                <h2 className="font-roboto font-black text-xl md:text-3xl text-secondary uppercase tracking-tighter">Contenido del curso</h2>
+            </div>
 
                 <div className="space-y-4 md:space-y-6 relative ml-3 md:ml-4">
                     <div className="absolute left-0 top-0 bottom-0 w-px bg-border/50" />
