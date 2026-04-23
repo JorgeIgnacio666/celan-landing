@@ -138,7 +138,7 @@ export default function Home() {
                         ))}
                     </div>
                     <span className="text-[10px] md:text-xs font-black text-secondary uppercase tracking-widest bg-secondary/10 px-3 py-1 rounded-full">4.9 / 5.0</span>
-                    <span className="text-[10px] md:text-xs font-black text-secondary/40 uppercase tracking-widest hidden sm:block">Matrícula Abierta 2026</span>
+                    <span className="text-[10px] md:text-xs font-black text-secondary/40 uppercase tracking-widest hidden sm:block">Calificación estudiantes</span>
                 </div>
 
                 <p className="text-base md:text-xl text-secondary/60 leading-relaxed max-w-2xl font-medium mb-6 md:mb-8">
