@@ -249,7 +249,7 @@ export default function Home() {
                 {/* Info Cohorte - Separado para destacar */}
                 <div className="mt-4 md:mt-6 bg-[#72b056]/5 border border-primary/20 rounded-[24px] md:rounded-[32px] p-6 md:p-8 text-center">
                     <span className="block text-[9px] md:text-[10px] font-black text-primary uppercase tracking-[0.4em] mb-2 md:mb-3">Próximo Cohorte</span>
-                    <span className="block font-roboto font-black text-lg md:text-2xl text-secondary uppercase tracking-tight">19 de Mayo, 2026</span>
+                    <span className="block font-roboto font-black text-lg md:text-2xl text-secondary uppercase tracking-tight">19 de Mayo 2026</span>
                 </div>
             </div>
           </aside>
