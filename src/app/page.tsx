@@ -125,8 +125,8 @@ export default function Home() {
                     <span className="text-[10px] md:text-xs font-black text-primary uppercase tracking-[0.3em]">Programa Avanzado</span>
                 </div>
                 
-                <h1 className="font-roboto font-black text-3xl sm:text-4xl md:text-6xl text-secondary leading-[1.1] md:leading-[0.95] tracking-tight uppercase mb-6 md:mb-8">
-                    Aspectos Básicos del <br className="hidden md:block" /> Soporte Nutricional
+                <h1 className="font-roboto font-black text-3xl sm:text-4xl md:text-6xl text-secondary leading-[1.1] md:leading-[0.95] tracking-tight mb-6 md:mb-8">
+                    Aspectos básicos del <br className="hidden md:block" /> soporte nutricional
                 </h1>
 
                 <div className="flex flex-wrap items-center gap-4 md:gap-6 mb-8 md:mb-10">
