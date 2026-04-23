@@ -18,7 +18,9 @@ import {
   Video,
   Layers,
   Zap,
-  Timer
+  Timer,
+  Users,
+  Trophy
 } from "lucide-react";
 
 export default function Home() {
