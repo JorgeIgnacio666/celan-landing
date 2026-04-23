@@ -78,40 +78,43 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background text-secondary font-inter antialiased">
       {/* Top Countdown Banner - Más compacto en móvil */}
-      <div className="bg-secondary text-white py-2 px-4 text-center border-b border-white/10 z-[60] sticky top-0">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4">
-            <span className="text-[9px] md:text-xs font-black uppercase tracking-[0.2em] flex items-center gap-2">
-                <Timer size={12} className="text-primary animate-pulse" />
-                La inscripción cierra en:
-            </span>
-            <div className="flex items-center gap-3 font-roboto font-black text-base md:text-xl text-primary tracking-tighter">
-                <div className="flex items-center gap-1">
-                    <span>{String(timeLeft.hours).padStart(2, '0')}</span><span className="text-[8px] text-white/40 uppercase">h</span>
-                </div>
-                <span className="text-white/20">:</span>
-                <div className="flex items-center gap-1">
-                    <span>{String(timeLeft.minutes).padStart(2, '0')}</span><span className="text-[8px] text-white/40 uppercase">m</span>
-                </div>
-                <span className="text-white/20">:</span>
-                <div className="flex items-center gap-1">
-                    <span>{String(timeLeft.seconds).padStart(2, '0')}</span><span className="text-[8px] text-white/40 uppercase">s</span>
-                </div>
-            </div>
-        </div>
-      </div>
-
-      {/* Navbar Minimalista */}
-      <nav className="border-b border-border/50 bg-white/90 backdrop-blur-md sticky top-[80px] md:top-[52px] z-50">
-        <div className="max-w-7xl mx-auto px-4 md:px-6 h-14 md:h-16 flex items-center justify-between">
-          <div className="flex items-center gap-2 md:gap-3">
-            <div className="w-7 h-7 md:w-8 md:h-8 bg-primary rounded-lg flex items-center justify-center font-black text-white text-xs md:text-base">C</div>
-            <span className="font-roboto font-black text-lg md:text-xl tracking-tight uppercase">CELAN</span>
+      <header className="sticky top-0 z-[60]">
+        {/* Top Countdown Banner - Más compacto en móvil */}
+        <div className="bg-secondary text-white py-2 px-4 text-center border-b border-white/10">
+          <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4">
+              <span className="text-[9px] md:text-xs font-black uppercase tracking-[0.2em] flex items-center gap-2">
+                  <Timer size={12} className="text-primary animate-pulse" />
+                  La inscripción cierra en:
+              </span>
+              <div className="flex items-center gap-3 font-roboto font-black text-base md:text-xl text-primary tracking-tighter">
+                  <div className="flex items-center gap-1">
+                      <span>{String(timeLeft.hours).padStart(2, '0')}</span><span className="text-[8px] text-white/40 uppercase">h</span>
+                  </div>
+                  <span className="text-white/20">:</span>
+                  <div className="flex items-center gap-1">
+                      <span>{String(timeLeft.minutes).padStart(2, '0')}</span><span className="text-[8px] text-white/40 uppercase">m</span>
+                  </div>
+                  <span className="text-white/20">:</span>
+                  <div className="flex items-center gap-1">
+                      <span>{String(timeLeft.seconds).padStart(2, '0')}</span><span className="text-[8px] text-white/40 uppercase">s</span>
+                  </div>
+              </div>
           </div>
-          <button className="bg-primary text-white px-4 md:px-5 py-2 rounded-lg text-[10px] md:text-[11px] uppercase tracking-[0.2em] font-black hover:opacity-90 transition-all">
-            Ingresar
-          </button>
         </div>
-      </nav>
+
+        {/* Navbar Minimalista */}
+        <nav className="border-b border-border/50 bg-white/90 backdrop-blur-md">
+          <div className="max-w-7xl mx-auto px-4 md:px-6 h-14 md:h-16 flex items-center justify-between">
+            <div className="flex items-center gap-2 md:gap-3">
+              <div className="w-7 h-7 md:w-8 md:h-8 bg-primary rounded-lg flex items-center justify-center font-black text-white text-xs md:text-base">C</div>
+              <span className="font-roboto font-black text-lg md:text-xl tracking-tight uppercase">CELAN</span>
+            </div>
+            <button className="bg-primary text-white px-4 md:px-5 py-2 rounded-lg text-[10px] md:text-[11px] uppercase tracking-[0.2em] font-black hover:opacity-90 transition-all">
+              Ingresar
+            </button>
+          </div>
+        </nav>
+      </header>
 
       <main className="max-w-7xl mx-auto px-4 md:px-6 pt-8 md:pt-16">
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
