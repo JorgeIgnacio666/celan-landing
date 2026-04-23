@@ -164,17 +164,17 @@ export default function Home() {
                                     <Video size={24} className="md:w-8 md:h-8" />
                                 </div>
                                 <div className="flex-1">
-                                  <h4 className="font-roboto font-black text-base md:text-lg text-secondary group-hover:text-primary transition-colors uppercase leading-tight mb-2">
-                                    {module.title}
-                                  </h4>
-                                  <p className="text-sm md:text-base text-secondary/60 mb-4 font-medium leading-relaxed">
-                                    {module.description}
-                                  </p>
-                                  <div className="flex items-center gap-3">
-                                    <span className="text-[10px] font-black text-primary uppercase tracking-widest flex items-center gap-2">
+                                  <div className="flex items-center gap-2 mb-2 md:mb-3">
+                                    <span className="text-[9px] md:text-[10px] font-black text-primary uppercase tracking-[0.2em] flex items-center gap-1.5 bg-primary/5 px-2 py-1 rounded-md">
                                        <Clock size={12} /> 5 HORAS ACADÉMICAS
                                     </span>
                                   </div>
+                                  <h4 className="font-roboto font-black text-base md:text-lg text-secondary group-hover:text-primary transition-colors uppercase leading-tight mb-2 md:mb-3">
+                                    {module.title}
+                                  </h4>
+                                  <p className="text-sm md:text-base text-secondary/60 font-medium leading-relaxed">
+                                    {module.description}
+                                  </p>
                                 </div>
                             </div>
                         </div>
